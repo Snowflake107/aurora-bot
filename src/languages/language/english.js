@@ -3,6 +3,11 @@ module.exports = {
     HELP_DESC: "Use `a&help <number>` for Commands in the Category\n"+
                "For Example, `{PREFIX}help 13` for Commands in Utility\n"+
                "Total Commands: **{COMMANDS}**",
+    HELP_MENU: "Help Menu",
+    HELP_CATEGORIES: "Categories",
+    HELP_SUPPORT: "Support",
+    DASHBOARD: "Dashboard",
+    WEBSITE: "Website",
     TRANSLATION_ERROR: "Something went wrong in the translation system.",
     "1": "1",
     "2": "2",
