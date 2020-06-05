@@ -1,5 +1,5 @@
 const langs = {
-    english: require("./english")
+    english: require(__dirname+"/language/english.js")
 };
 
 class Translator {
