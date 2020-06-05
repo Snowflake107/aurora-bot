@@ -17,6 +17,10 @@ module.exports = (sequelize, Sequelize) => {
             defaultValue: true,
             allowNull: true
         },
+        language: {
+            type: Sequelize.STRING,
+            defaultValue: "english"
+        },
         muteRole: Sequelize.STRING,
         prefix: {
             type: Sequelize.STRING,
