@@ -1,5 +1,7 @@
+const folder = __dirname+"/language";
 const langs = {
-    english: require(__dirname+"/language/english.js")
+    english: require(folder+"/english.js"),
+    nepali: require(folder+"/nepali.js")
 };
 
 class Translator {
