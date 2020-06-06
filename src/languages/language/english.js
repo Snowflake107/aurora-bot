@@ -1,6 +1,6 @@
 module.exports = {
     PREFIX_CHANGE: (PREFIX) => `Prefix set to ${PREFIX}.`,
-    HELP_DESC (PREFIX, COMMANDS) => : `Use \`${PREFIX}help <number>\` for Commands in the Category\n`+
+    HELP_DESC: (PREFIX, COMMANDS) => `Use \`${PREFIX}help <number>\` for Commands in the Category\n`+
                `For Example, \`${PREFIX}help 13\` for Commands in Utility\n`+
                `Total Commands: **${COMMANDS}**`,
     HELP_MENU: "Help Menu",
