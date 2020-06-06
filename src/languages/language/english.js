@@ -18,5 +18,6 @@ module.exports = {
     "7": "7",
     "8": "8",
     "9": "9",
-    "0": "0"
+    "0": "0",
+    GUILD_LANGUAGE: "Language of this server is English."
 };
