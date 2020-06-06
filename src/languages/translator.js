@@ -23,4 +23,4 @@ class Translator {
     }
 }
 
-module.ezports = Translator;
+module.exports = Translator;
