@@ -10,16 +10,10 @@ class Translator {
         this.translations = langs[this.name];
     }
     
-    translate(suffix, prefix) {
-        let key = this.translations[suffix];
+    translate(query, ...args) {
+        let key = this.translations[query];
         if (!key) return this.translations["TRANSLATION_ERROR"];
-        let ID = Object.keys(prefix);
-        let data = Object.values(prefix);
-        let statement = "";
-        for (var i in data) {
-            statement += key.replace(new RegExp(ID[i], "g"), data[i]);
-        }
-        return statement;
+        return (typeof key === "function") ? key(...args) : key;
     }
 }
 
