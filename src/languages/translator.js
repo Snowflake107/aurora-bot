@@ -6,7 +6,7 @@ const langs = {
 
 class Translator {
     constructor(language="english") {
-        this.language = langs[language] || "english";
+        this.language = langs[language] ? language : "english";
         this.translations = langs[this.name];
     }
     
